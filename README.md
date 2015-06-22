@@ -43,10 +43,15 @@ Handy bash script to (remotely) deploy Magento extensions using modman.
     Check out the modman Tutorial for more information.
 
  2) Set configuration options to your needs:
-    EXTENSION_NAME, MODMAN_PATH, EXTENSION_PROJECT_PATH, DST_MAGE_PROJECT_PATH
+
+    - EXTENSION_NAME
+    - MODMAN_PATH
+    - EXTENSION_PROJECT_PATH
+    - DST_MAGE_PROJECT_PATH
 
  3) Optionally specify files and folders to exclude:
-    EXCLUDE_FILES_AND_FOLDERS
+    
+    - EXCLUDE_FILES_AND_FOLDERS
 
     Entries are relative to EXTENSION_PROJECT_PATH.
 
