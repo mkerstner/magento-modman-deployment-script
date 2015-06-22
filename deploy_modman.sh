@@ -70,16 +70,16 @@
 ################################################################################
 
 # Magento extension namespace, i.e. extension source folder
-EXTENSION_NAME="BothInteract_DistributorCommission"
+EXTENSION_NAME="MyCompany_MyModule"
 
 # Path to modman executable
-MODMAN_PATH="/Users/mak/bin/modman"
+MODMAN_PATH="/usr/local/bin/modman"
 
 # Magento extension project path, do *not* use trailing slash
-EXTENSION_PROJECT_PATH="/Users/mak/workspace/BothInteract_DistributorCommission"
+EXTENSION_PROJECT_PATH="/home/my_user/workspace/MyExtension"
 
 # Destination Magento project path, i.e. where to deploy current extension to
-DST_MAGE_PROJECT_PATH="/Users/mak/workspace/fabrik-outlet/.modman/"
+DST_MAGE_PROJECT_PATH="/var/www/magento-dev1/.modman/"
 
 # List of files and folders to exclude for deployment
 EXCLUDE_FILES_AND_FOLDERS="nbproject .git .gitignore deploy_modman.sh"
