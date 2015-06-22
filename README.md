@@ -7,8 +7,8 @@ Handy bash script to (remotely) deploy Magento extensions using modman.
  Optionally, specify files and folders to exclude from deployment, such as the 
  .git folder.
 
- How it works
- -------------
+## How it works
+ 
  This script copies your Magento extension to the .modman directory of your
  destination Magento projects and deploys it there using modman. In addition,
  it exludes files and folders (such as .git) so that only relevant files are
@@ -32,14 +32,12 @@ Handy bash script to (remotely) deploy Magento extensions using modman.
  4) You're done! 
 
 
- Requirements
- -------------
+## Requirements
 
  - rsync
  - modman
 
- Usage
- -------------
+## Usage
 
  1) Set the modman configuration file to meet your extension's requirements.
     Check out the modman Tutorial for more information.
@@ -57,8 +55,7 @@ Handy bash script to (remotely) deploy Magento extensions using modman.
  5) Check your Magento setup for your new or updated extension :)
 
 
- Improvements
- -------------
+## Improvements
 
  Possible improvements for this script are:
 
