@@ -2,7 +2,7 @@
 #
 # @author Matthias Kerstner <matthias@kerstner.at>
 # @version 1.0
-# @link https://www.kerstner.at/...
+# @link https://www.kerstner.at/en/2015/06/remote-deployment-script-for-magento-extensions-using-modman-and-rsync/
 # 
 # Handy bash script to (remotely) deploy Magento extensions using modman.
 #
