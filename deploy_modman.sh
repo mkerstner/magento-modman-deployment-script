@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 #
 # @author Matthias Kerstner <matthias@kerstner.at>
-# @version 1.0
+# @version 1.1
 # @link https://www.kerstner.at/en/2015/06/remote-deployment-script-for-magento-extensions-using-modman-and-rsync/
 # 
 # Handy bash script to (remotely) deploy Magento extensions using modman.
@@ -93,8 +93,9 @@ do
   EXCLUDES+=" --exclude $exclusion"
 done
 
-# Copy extension to destination Magento project's .modman directory
-rsync -av --progress $EXTENSION_PROJECT_PATH $DST_MAGE_PROJECT_PATH $EXCLUDES
+# Copy extension to destination Magento project's .modman directory while 
+# automatically removing old files from remote location.
+rsync -av --delete --progress $EXTENSION_PROJECT_PATH $DST_MAGE_PROJECT_PATH $EXCLUDES
 
 # finally deploy extension using modman
 cd $DST_MAGE_PROJECT_PATH

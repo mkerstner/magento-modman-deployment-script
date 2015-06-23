@@ -66,3 +66,14 @@ Handy bash script to (remotely) deploy Magento extensions using modman.
 
  - auto cache clear
  - auto path detection
+
+## CHANGELOG
+
+### 1.0 
+
+Initial release
+
+### 1.1
+
++ added --delete option for rsync 
+ 
